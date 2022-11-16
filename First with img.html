@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title> Welcome MFs</title>
+	</head>
+<body>
+	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> DO NOT FCKNG CLICK<bold> </a>
+	<h1> Random </h1> <hr/>
+	<p> If you answer this, you get freebies </p>
+	<ul>
+		<li>Free pizza</li>
+		<li>1 Gcash</li>
+		<li>Will to live</li>
+	<hr/>
+	<br/><img src="https://i.kym-cdn.com/entries/icons/facebook/000/020/110/Lord_farquaad_banner.jpg">
+	<div class="wrapper">
+		<div class="contrainer">
+			<p id="question">Naibog ka ni Cocoy?</p>
+			<button class="btn" id="yes">Yes </button>
+			<button class="btn" id="no">Yes </button>
+		</div>
+	</div>
+</body>
+<script>
+	const noBTN = document.getElementById('no');
+	const yesBTN = document.getElementById('yes');
+	const ques = document.getElementById('question');
+	noBtn.addEventListener("click", ()=>{
+		let rand = Math.floor(Math.random() * (500 -  100) + 1);
+		let rand2 = Math.floor(Math.random() * (-300 -  100) + 1);
+		noBtn.style.transform = "translate("+rand+px,"+rand2+px)";
+	});
+	yesBtn.addEventListener("click", ()=>{
+		ques.innerHTML =  "Sorry, wa naibog si Cocoy nimo"
+	})
+</script>
+</html>
